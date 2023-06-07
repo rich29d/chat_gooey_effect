@@ -1,11 +1,12 @@
 {
-  "name": "chat",
+  "name": "create-react-app-starter",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "serve": "^14.2.0",
+    "web-vitals": "^3.3.1"
   },
   "scripts": {
     "dev": "react-scripts start",
@@ -13,7 +14,9 @@
     "build": "react-scripts build"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app"
+    ]
   },
   "browserslist": {
     "production": [
